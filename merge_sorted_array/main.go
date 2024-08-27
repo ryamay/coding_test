@@ -16,7 +16,7 @@ func merge(nums1 []int, m int, nums2 []int, n int) {
 	if !matchPrecondition(nums1, m, nums2, n) {
 		return // 制約条件違反のため何もしない
 	}
-
+	//note: 自分で作成した回答は先頭から比較しているが、最善の回答は末尾から比較してnon-zeroのnums1要素を設定していくもの。
 	copy(nums1, mergeSub(nums1, m, nums2, n))
 }
 
