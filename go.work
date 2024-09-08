@@ -1,6 +1,28 @@
-go 1.23.0
+go 1.23.1
 
 use (
+	./104_maximumDepthOfBinaryTree
+	./108_convertSortedArraytoBinarySearchTree
+	./111_minimumDepthOfBinaryTree
+	./127_wordLadder
 	./141_linkedListCycle
+	./142_LinkedListCycle2
+	./1_twoSum
+	./200_numberOfIslands
+	./206_reverceLinkedList
+	./20_validParentheses
+	./2_addTwoNumbers
+	./347_topKFrequentElement
+	./349_intersectionOfTwoArrays
+	./373_findKPairsWithSmallestSums
+	./387_firstUniqueCharacter
+	./49_groupAnagrams
+	./560_subarraySumEqualsK
+	./617_mergeTwoBinaryTrees
+	./695_maxAreaOfIsland
+	./703_kthLargestElement
+	./82_removeDuplicatesFromSortedList2
+	./83_removeDuplicatesFromSortedList
 	./88_mergeSortedArray
+	./929_uniqueEmailAddresses
 )
