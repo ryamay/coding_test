@@ -1,9 +1,12 @@
 go 1.23.1
 
 use (
+	./102_binaryTreeLevelOrderTraversal
+	./103_binaryTreeZigzagLevelOrderTraversal
 	./104_maximumDepthOfBinaryTree
 	./108_convertSortedArraytoBinarySearchTree
 	./111_minimumDepthOfBinaryTree
+	./112_pathSum
 	./127_wordLadder
 	./141_linkedListCycle
 	./142_LinkedListCycle2
